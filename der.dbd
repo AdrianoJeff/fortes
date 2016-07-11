@@ -1,0 +1,74 @@
+<XMLDiagram>
+  <TDBADiagramController Locked="0">
+    <Elements>
+      <TDBADiagramObject id="1" propertiesclass="TDiagramMetaTableProperties" objectname="ABASTECIMENTOS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="320" top="280" width="200" height="125"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="2" propertiesclass="TDiagramMetaTableProperties" objectname="BOMBAS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="320" top="130" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="3" propertiesclass="TDiagramForeignKeyProperties" objectname="ABASTECIMENTOS.FK_ABASTECIMENTOS_BOMBAS">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="48" top="48" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="420" y="343"/>
+                <Point x="420" y="168"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="4" propertiesclass="TDiagramMetaTableProperties" objectname="PRODUTOS">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="10" top="10" width="200" height="69"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="5" propertiesclass="TDiagramMetaTableProperties" objectname="TANQUES">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="320" top="10" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="6" propertiesclass="TDiagramForeignKeyProperties" objectname="TANQUES.FK_TANQUES_PRODUTOS">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="96" top="96" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="420" y="43"/>
+                <Point x="110" y="40"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="7" propertiesclass="TDiagramForeignKeyProperties" objectname="BOMBAS.FK_BOMBAS_TANQUES">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="112" top="112" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="420" y="168"/>
+                <Point x="420" y="43"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+    </Elements>
+    <Surface zoom="100" scrollx="0" scrolly="0"/>
+  </TDBADiagramController>
+</XMLDiagram>
