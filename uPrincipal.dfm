@@ -5,6 +5,7 @@ inherited frmPrincipal: TfrmPrincipal
   Menu = MainMenu1
   OldCreateOrder = True
   Position = poDesktopCenter
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object MainMenu1: TMainMenu

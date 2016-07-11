@@ -24,6 +24,7 @@ type
     procedure Bombas1Click(Sender: TObject);
     procedure Sair1Click(Sender: TObject);
     procedure Abastecimentos2Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -86,6 +87,12 @@ begin
   Application.CreateForm(TfrmAbastecimentos, frmAbastecimentos);
   frmAbastecimentos.ShowModal;
   frmAbastecimentos.Release;
+end;
+
+procedure TfrmPrincipal.FormShow(Sender: TObject);
+begin
+  inherited;
+  dmDados.Conecta;
 end;
 
 end.
